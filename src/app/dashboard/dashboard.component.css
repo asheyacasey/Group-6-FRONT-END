@@ -1,0 +1,102 @@
+* {
+    font-family: 'Poppins';
+}
+
+.dropdown {
+    margin-left: 30px;
+    background-color: #F7F7F7;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.navbar {    
+    background-color: #AD5954;
+}
+
+.nav-link {
+    color: white;
+}
+
+.brand {
+    color: white;
+    font-weight: 600;
+}
+
+#user-name {
+    position:relative;
+  
+}
+
+#title {
+    margin-top: 50px;
+    padding-left: 20px;
+    font-weight:600;
+    font-size: 20px;
+   
+}
+
+#sub-text {
+    padding-left: 20px;
+    color: #A0A0A0;
+}
+
+.brand {
+    
+    margin-bottom: 0%;
+}
+
+#top {
+    background-color: purple;
+}
+
+#btn1 {
+margin-top: 40px;
+
+width: 150px;
+height: 40px;
+margin-left: 50%;
+
+color: white;
+cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#btn2 {
+    margin-top: 40px;
+    
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    
+    }
+
+#btnNew {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #AD5954;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+#btnEdit {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #4B2E2C;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    /* width: 100vh;
+    position: relative; */
+  
+}

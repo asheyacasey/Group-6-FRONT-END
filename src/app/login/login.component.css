@@ -102,6 +102,7 @@
     height: 50px;
     width: 50px;
    
+   
   }
 
 
@@ -197,10 +198,8 @@
     font-weight:900;
     font-family: 'Poppins';
     font-size: 40px;
-   
     color: #AD5954;
 
- 
   width: 100px;
   height: 100px;
   position: absolute;

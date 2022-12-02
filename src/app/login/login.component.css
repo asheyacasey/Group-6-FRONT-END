@@ -166,7 +166,7 @@
 
   #admin {
     padding-left: 100px;
-    margin-top: 0%;
+    margin-top: 30px;
   }
 
   #sub-text {
@@ -197,11 +197,11 @@
 #service-charge{
     font-weight:900;
     font-family: 'Poppins';
-    font-size: 40px;
+    font-size: 20px;
     color: #AD5954;
 
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;

@@ -96,7 +96,40 @@ cursor: pointer;
 
 .container {
     display: flex;
+    /* background-color: aquamarine; */
     /* width: 100vh;
     position: relative; */
   
 }
+
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+#input {
+  
+    padding-left: 10px;
+    /* margin-left: 120px; */
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 320px;
+    height: 40px;
+    border: none;
+    background-color: #ECECEC;
+    font-family: 'Poppins';
+    
+  }
+
+ #searchbtn {
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #AD5954;
+    color: white;
+ }

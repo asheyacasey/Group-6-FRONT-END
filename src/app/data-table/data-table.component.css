@@ -205,3 +205,7 @@ button.btn.search::before {
   
 }
 
+button.btn.add::before {
+  font-family: fontAwesome;
+  content: "\f055\00a0";
+}

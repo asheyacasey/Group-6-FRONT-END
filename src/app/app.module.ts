@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataTableComponent } from './data-table/data-table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatDialogModule } from '@angular/material/dialog'
 import { MatSortModule } from '@angular/material/sort';
+import { NewTicketComponent } from './new-ticket/new-ticket.component';
 
 
 
@@ -16,15 +18,17 @@ import { MatSortModule } from '@angular/material/sort';
     AppComponent,
     routingComponents,
     DataTableComponent,
-   
+    NewTicketComponent,
   ],
+  entryComponents: [NewTicketComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

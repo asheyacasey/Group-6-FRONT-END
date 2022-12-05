@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { DataTableComponent } from './data-table/data-table.component';
+import { NewTicketComponent } from './new-ticket/new-ticket.component';
 
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent},
-  { path: 'dashboard', component: DashboardComponent},
-  { path: 'datatable', component: DataTableComponent}
+  { path: 'datatable', component: DataTableComponent},
+  { path: 'newticket', component: NewTicketComponent}
   
 ];
 
@@ -17,4 +17,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [ LoginComponent, DashboardComponent, DataTableComponent]
+export const routingComponents = [ LoginComponent, DataTableComponent, NewTicketComponent]

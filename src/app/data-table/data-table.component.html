@@ -45,12 +45,12 @@
 <div class="container">
   <p id="title">Ticket Management </p>
   <div id="btn1"> <button
-       class="btn add btn-primary"
-      id="btnNew"
-      className="btn"
-      onClick={handleUserLogin}
-      data-testid="send-user-login">  New</button>
-  </div>
+    class="btn add btn-primary"
+   id="btnNew"
+   className="btn"
+   (click)="openDialog()"
+   >  New</button>
+</div>
   
 </div>
 
@@ -75,6 +75,7 @@
   <button class="btn search "></button>
 </div>
 </div>
+
 
 
 <div class="table">

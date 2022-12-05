@@ -18,6 +18,30 @@
     color: white;
 }
 
+.nav-link:hover {
+    color: #FFC895;
+}
+
+.sub-menu {
+    display: none;
+}
+
+
+.nav-link:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #FFC895;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.nav-link:hover .sub-menu ul {
+    display: block;
+   margin: 10px;
+}
+
+
+
 .brand {
     color: white;
     font-weight: 600;
@@ -52,14 +76,12 @@
 
 #btn1 {
 margin-top: 40px;
-
 width: 150px;
 height: 40px;
-margin-left: 50%;
-
+margin-left: 70%;
 color: white;
 cursor: pointer;
-    transition: 0.3s;
+transition: 0.3s;
 }
 
 
@@ -96,7 +118,7 @@ cursor: pointer;
 
 .container {
     display: flex;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     /* width: 100vh;
     position: relative; */
   
